@@ -1,0 +1,30 @@
+@import "src/styles";
+.login{
+  h3, label, p{
+    color:#292D32;
+    letter-spacing: 0.5px;
+  }
+  .hide{
+    display: none;
+  }
+  .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+  }
+  #login-form{
+    padding: 20px;
+
+  }
+  button{
+    background: $yellow;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+  }
+  p{
+    cursor: pointer;
+  }
+
+}
